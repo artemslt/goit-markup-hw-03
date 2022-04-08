@@ -106,7 +106,7 @@ nav .nav-link,
 .nav-contacts .item + .item {
   margin-left: 50px;
 }
-.container.main-nav {
+.hdr {
   border-bottom: 1px solid #ececec;
 }
 
@@ -115,12 +115,12 @@ nav .nav-link,
 .hero {
   text-align: center;
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .title-hero {
-  padding-top: 200px;
-  padding-bottom: 30px;
-
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -133,7 +133,6 @@ nav .nav-link,
   min-width: 200px;
   padding: 10px 32px;
   border: 1px solid transparent;
-  margin-bottom: 200px;
 
   border-radius: 4px;
   font-family: inherit;
@@ -226,14 +225,11 @@ img {
 /* section team */
 
 .team-list p {
-  padding-bottom: 30px;
-
   font-size: 16px;
   line-height: 1.19;
 }
 .team-list .team-member {
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 
   font-size: 16px;
   line-height: 1.19;
@@ -256,19 +252,25 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-card-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /* footer */
 
 .ftr {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .ftr .logo {
   display: inline-block;
-  padding-top: 60px;
+
   color: var(--main-white-color);
 }
 .contact-info {
-  padding-top: 20px;
-  padding-bottom: 60px;
+  margin-top: 20px;
+
   font-style: normal;
   color: var(--main-white-color);
 }
@@ -281,10 +283,14 @@ img {
 
 /* Portfolio */
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .filter-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
 }
 
 .filter-list > .item + .item {
@@ -316,7 +322,7 @@ img {
 }
 
 .examples-title {
-  margin: 20px 24px 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -324,24 +330,28 @@ img {
   color: var(--main-black-color);
 }
 .filter-value {
-  margin: 0px 24px 20px;
   font-size: 16px;
   line-height: 1.88;
+}
+
+.examples-card-title {
+  padding: 20px 24px;
+
+  display: block;
+  width: 370px;
+
+  border: 1px solid #eeeeee;
 }
 
 .examples {
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
-  padding-bottom: 94px;
 }
 
 .examples > li {
-  display: block;
-  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 .examples > li:nth-of-type(3n) {
   margin-right: 0;
