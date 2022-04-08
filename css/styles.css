@@ -291,6 +291,7 @@ img {
 .filter-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filter-list > .item + .item {
@@ -346,7 +347,6 @@ img {
 .examples {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 50px;
 }
 
 .examples > li {
