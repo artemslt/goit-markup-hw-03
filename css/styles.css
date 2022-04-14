@@ -211,7 +211,7 @@ button:focus {
 .works-list,
 .team-list {
   display: flex;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 img {
   display: block;
